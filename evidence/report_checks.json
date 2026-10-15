@@ -5,6 +5,7 @@
     "model_seed": 1410,
     "v_ego": 12.0
   },
+  "n_seeds": 5,
   "replay_aeb_changed_frames": [
     {
       "segment": 89,
@@ -124,6 +125,30 @@
       "all": 0.7881371974945068,
       "brake_slice": 1.0132981538772583,
       "slice_share": 0.04323143497196288
+    },
+    {
+      "seed": 1413,
+      "all": 0.815101146697998,
+      "brake_slice": 1.0677711963653564,
+      "slice_share": 0.04323143497196288
+    },
+    {
+      "seed": 1414,
+      "all": 0.8355008363723755,
+      "brake_slice": 1.0557173490524292,
+      "slice_share": 0.04323143497196288
     }
-  ]
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "system": "Windows",
+    "thread_settings": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  }
 }
